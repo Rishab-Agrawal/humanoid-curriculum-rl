@@ -1,0 +1,5 @@
+gymnasium[mujoco] >= 0.29
+mujoco >= 2.3.7
+stable-baselines3 >= 2.2.1
+numpy
+tensorboard

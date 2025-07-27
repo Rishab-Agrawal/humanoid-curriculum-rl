@@ -1,0 +1,36 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+
+# === Environment files ===
+.env
+.venv/
+humanoid-curriculum/
+*.env
+
+# === Type checker / Linters ===
+.mypy_cache/
+
+# === IDE settings ===
+.vscode/
+.idea/
+*.swp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Auto-generated folders/files ===
+models/
+logs/
+env_q_table.pkl
+
+# === Jupyter/Colab (if any) ===
+.ipynb_checkpoints/
+
+# === Dependency management ===
+*.egg-info/
+dist/
+build/
