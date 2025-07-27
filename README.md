@@ -70,6 +70,8 @@ cd humanoid-curriculum-rl
 
 ```bash
 conda create -n humanoid-curriculum python=3.10
+```
+```bash
 conda activate humanoid-curriculum
 ```
 
