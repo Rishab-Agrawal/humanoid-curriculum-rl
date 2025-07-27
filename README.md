@@ -134,9 +134,25 @@ Keep an eye on the `total_timesteps` field — once this reaches **25,000 or mor
 
 ### Test a trained model
 
-```bash
-python main_humanoid_custom.py Humanoid-v4 SAC -s ./models/SAC_50000.zip
+To test a trained model, use the following command format:
+
 ```
+python main_humanoid_custom.py Humanoid-v4 SAC -s ./models/<MODEL_FILENAME>.zip
+```
+
+Replace `<MODEL_FILENAME>` with the name of the specific model file you would like to test. Multiple models may be saved at different training stages (e.g., `SAC_25000.zip`, `SAC_50000.zip`), and you can choose any of them depending on which checkpoint you want to evaluate.
+
+Examples:
+- To test the model saved after 25,000 timesteps:
+  ```
+  python main_humanoid_custom.py Humanoid-v4 SAC -s ./models/SAC_25000.zip
+  ```
+- To test the model saved after 50,000 timesteps:
+  ```
+  python main_humanoid_custom.py Humanoid-v4 SAC -s ./models/SAC_50000.zip
+  ```
+
+Make sure the selected model file exists in the `./models/` directory before running the command.
 
 ---
 
