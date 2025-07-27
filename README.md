@@ -106,6 +106,32 @@ Train environment? (y/n):
 
 - Type `y` to allow the Q-learning environment to learn the curriculum.
 
+IMPORTANT: You will need to manually stop the training by pressing `Ctrl + C` in the terminal when you're satisfied with the number of timesteps. A minimum of **25,000 timesteps** (defined in the code) must be completed before testing can be performed.
+
+You can track the progress of training by looking for log tables like the one below, printed in the terminal:
+
+```
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 21.9     |
+|    ep_rew_mean     | 111      |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 63       |
+|    time_elapsed    | 2        |
+|    total_timesteps | 175      |
+| train/             |          |
+|    actor_loss      | -23      |
+|    critic_loss     | 58.7     |
+|    ent_coef        | 0.978    |
+|    ent_coef_loss   | -0.614   |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 74       |
+---------------------------------
+```
+
+Keep an eye on the `total_timesteps` field — once this reaches **25,000 or more**, you can safely stop training using `Ctrl + C` and proceed to testing.
+
 ### Test a trained model
 
 ```bash
