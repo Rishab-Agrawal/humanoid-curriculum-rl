@@ -4,8 +4,8 @@ This project implements **Automated Curriculum Learning** for a MuJoCo Humanoid 
 
 The Q-learning environment observes the robot’s training performance and learns when to modify the gravitational conditions to improve the agent’s ability to learn walking under diverse perturbations.
 
-📄 **Publication**: [Mitigating the Trade-Off Between Robustness, Optimality and Sample Efficiency in Simulated Legged Locomotion - IEEE Xplore](https://ieeexplore.ieee.org/document/10654466)  
-▶️ **Results Video**: [Watch comparison video (MP4)](https://drive.google.com/file/d/12GmX-yZOsXB_hhqO02-xF9PYSJqFJOHF/view?usp=sharing)
+**Publication**: [Mitigating the Trade-Off Between Robustness, Optimality and Sample Efficiency in Simulated Legged Locomotion - IEEE Xplore](https://ieeexplore.ieee.org/document/10654466)  
+**Results Video**: [Watch comparison video (MP4)](https://drive.google.com/file/d/12GmX-yZOsXB_hhqO02-xF9PYSJqFJOHF/view?usp=sharing)
 
 ---
 
