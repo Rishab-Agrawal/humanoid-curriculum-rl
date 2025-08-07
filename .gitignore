@@ -34,3 +34,6 @@ env_q_table.pkl
 *.egg-info/
 dist/
 build/
+
+# === Media ===
+*.mp4
