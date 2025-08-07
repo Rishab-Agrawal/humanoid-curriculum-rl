@@ -31,14 +31,14 @@ The demo showcases a side-by-side comparison of humanoid agents trained with and
 .
 ├── main_humanoid_custom.py      # Main script for training/testing the RL agent
 ├── ql_env.py                    # Q-learning logic for the meta-environment (curriculum learning)
-├── env_humanoid_v4_custom.py   # Custom wrapper for the Humanoid-v4 environment
+├── env_humanoid_v4_custom.py    # Custom wrapper for the Humanoid-v4 environment
 ├── requirements.txt             # Python dependencies for setting up the environment
 ├── README.md                    # Project overview and instructions
-├── demo.gif
+├── demo.gif                     # trained humanoid agents comparison
 ├── .gitignore                   # Specifies untracked files to ignore in version control
 ├── LICENSE                      # MIT License for usage and distribution
 ├── assets/
-│   └── xml_humanoid_custom.xml # Custom MuJoCo XML file defining the humanoid model
+│   └── xml_humanoid_custom.xml  # Custom MuJoCo XML file defining the humanoid model
 │
 ├── models/                      # (Generated) Directory where trained RL models are saved
 ├── logs/                        # (Generated) Directory for TensorBoard logs
